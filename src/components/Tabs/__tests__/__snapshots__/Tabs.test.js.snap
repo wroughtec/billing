@@ -1,0 +1,2836 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs Renders done 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TabsContainer
+    store={
+      Object {
+        "bills": Array [
+          Object {
+            "categoryId": 1,
+            "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+            "id": "5a5caa1efe33900100fd8ed5",
+            "isBill": true,
+            "name": "Vodafone",
+            "transactions": Array [
+              Object {
+                "amount": 12.34,
+                "date": "2018-01-13",
+                "id": 36,
+              },
+              Object {
+                "amount": 14.34,
+                "date": "2018-02-13",
+                "id": 37,
+              },
+              Object {
+                "amount": 15.54,
+                "date": "2018-03-13",
+                "id": 38,
+              },
+              Object {
+                "amount": 11.34,
+                "date": "2018-04-13",
+                "id": 39,
+              },
+              Object {
+                "amount": 18.99,
+                "date": "2018-05-13",
+                "id": 40,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+            "id": "5a5caad4fe33900100fd8ed7",
+            "isBill": true,
+            "name": "HSBC Mortgage",
+            "transactions": Array [
+              Object {
+                "amount": 1023,
+                "date": "2018-01-01",
+                "id": 1,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-02-01",
+                "id": 2,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-03-01",
+                "id": 3,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-04-01",
+                "id": 4,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-05-01",
+                "id": 5,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 2,
+            "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+            "id": "5a5cab18fe33900100fd8ed8",
+            "isBill": true,
+            "name": "Netflix",
+            "transactions": Array [
+              Object {
+                "amount": 19,
+                "date": "2018-01-02",
+                "id": 6,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-02-02",
+                "id": 7,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-03-02",
+                "id": 8,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-04-02",
+                "id": 9,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-05-02",
+                "id": 10,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": null,
+            "id": "5a5cab3bfe33900100fd8ed9",
+            "isBill": true,
+            "name": "Transfer to flatmate",
+            "transactions": Array [
+              Object {
+                "amount": 450,
+                "date": "2018-01-02",
+                "id": 11,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-02-02",
+                "id": 12,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-03-02",
+                "id": 13,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-04-02",
+                "id": 14,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-05-02",
+                "id": 15,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+            "id": "5a5cab88fe33900100fd8eda",
+            "isBill": true,
+            "name": "AMEX Payment",
+            "transactions": Array [
+              Object {
+                "amount": 50,
+                "date": "2018-01-22",
+                "id": 16,
+              },
+              Object {
+                "amount": 50,
+                "date": "2018-02-22",
+                "id": 17,
+              },
+              Object {
+                "amount": 62.34,
+                "date": "2018-03-22",
+                "id": 18,
+              },
+              Object {
+                "amount": 82.87,
+                "date": "2018-04-22",
+                "id": 19,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-05-22",
+                "id": 20,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 5,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+            "id": "5a5cac65fe33900100fd8edc",
+            "isBill": true,
+            "name": "Sainsbury's",
+            "transactions": Array [
+              Object {
+                "amount": 18.92,
+                "date": "2018-01-22",
+                "id": 26,
+              },
+              Object {
+                "amount": 6.34,
+                "date": "2018-02-22",
+                "id": 27,
+              },
+              Object {
+                "amount": 112.34,
+                "date": "2018-03-10",
+                "id": 28,
+              },
+              Object {
+                "amount": 565.27,
+                "date": "2018-04-21",
+                "id": 29,
+              },
+              Object {
+                "amount": 8,
+                "date": "2018-07-02",
+                "id": 30,
+              },
+            ],
+          },
+        ],
+        "categories": Array [
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/income.png",
+            "id": 1,
+            "name": "Phone",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/entertainment.png",
+            "id": 2,
+            "name": "TV",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/bank_charges.png",
+            "id": 3,
+            "name": "Bank Charges",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/transport.png",
+            "id": 4,
+            "name": "Transport",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/groceries.png",
+            "id": 5,
+            "name": "Groceries",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/eating_out.png",
+            "id": 6,
+            "name": "Eating Out",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/shopping.png",
+            "id": 7,
+            "name": "Shopping",
+          },
+        ],
+        "fetchTransactions": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "state": "done",
+        "transactions": Array [
+          Object {
+            "categoryId": 2,
+            "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+            "id": "5a5caa8efe33900100fd8ed6",
+            "isBill": false,
+            "name": "Sky TV",
+            "transactions": Array [
+              Object {
+                "amount": 82.17,
+                "date": "2018-01-01",
+                "id": 41,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-02-01",
+                "id": 42,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-03-01",
+                "id": 43,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-04-01",
+                "id": 44,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-05-01",
+                "id": 45,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 4,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+            "id": "5a5cabd4fe33900100fd8edb",
+            "isBill": false,
+            "name": "TFL",
+            "transactions": Array [
+              Object {
+                "amount": 4.99,
+                "date": "2018-01-22",
+                "id": 21,
+              },
+              Object {
+                "amount": 6,
+                "date": "2018-01-22",
+                "id": 22,
+              },
+              Object {
+                "amount": 2.34,
+                "date": "2018-03-10",
+                "id": 23,
+              },
+              Object {
+                "amount": 2.87,
+                "date": "2018-04-21",
+                "id": 24,
+              },
+              Object {
+                "amount": 4,
+                "date": "2018-05-02",
+                "id": 25,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 4,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+            "id": "328card4fe33900100fd8ail",
+            "isBill": false,
+            "name": "Uber",
+            "transactions": Array [
+              Object {
+                "amount": 6.23,
+                "date": "2018-01-22",
+                "id": 31,
+              },
+              Object {
+                "amount": 5.12,
+                "date": "2018-02-21",
+                "id": 32,
+              },
+              Object {
+                "amount": 8.34,
+                "date": "2018-03-10",
+                "id": 33,
+              },
+              Object {
+                "amount": 1.99,
+                "date": "2018-04-13",
+                "id": 34,
+              },
+              Object {
+                "amount": 4,
+                "date": "2018-05-02",
+                "id": 35,
+              },
+            ],
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TabsNav />,
+        <Router>
+          <Rows
+            data={
+              Array [
+                Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                },
+              ]
+            }
+            path="/"
+          />
+          <Rows
+            data={
+              Array [
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                  "id": "5a5caa8efe33900100fd8ed6",
+                  "isBill": false,
+                  "name": "Sky TV",
+                  "transactions": Array [
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-01-01",
+                      "id": 41,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-02-01",
+                      "id": 42,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-03-01",
+                      "id": 43,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-04-01",
+                      "id": 44,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-05-01",
+                      "id": 45,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 4,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                  "id": "5a5cabd4fe33900100fd8edb",
+                  "isBill": false,
+                  "name": "TFL",
+                  "transactions": Array [
+                    Object {
+                      "amount": 4.99,
+                      "date": "2018-01-22",
+                      "id": 21,
+                    },
+                    Object {
+                      "amount": 6,
+                      "date": "2018-01-22",
+                      "id": 22,
+                    },
+                    Object {
+                      "amount": 2.34,
+                      "date": "2018-03-10",
+                      "id": 23,
+                    },
+                    Object {
+                      "amount": 2.87,
+                      "date": "2018-04-21",
+                      "id": 24,
+                    },
+                    Object {
+                      "amount": 4,
+                      "date": "2018-05-02",
+                      "id": 25,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 4,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                  "id": "328card4fe33900100fd8ail",
+                  "isBill": false,
+                  "name": "Uber",
+                  "transactions": Array [
+                    Object {
+                      "amount": 6.23,
+                      "date": "2018-01-22",
+                      "id": 31,
+                    },
+                    Object {
+                      "amount": 5.12,
+                      "date": "2018-02-21",
+                      "id": 32,
+                    },
+                    Object {
+                      "amount": 8.34,
+                      "date": "2018-03-10",
+                      "id": 33,
+                    },
+                    Object {
+                      "amount": 1.99,
+                      "date": "2018-04-13",
+                      "id": 34,
+                    },
+                    Object {
+                      "amount": 4,
+                      "date": "2018-05-02",
+                      "id": 35,
+                    },
+                  ],
+                },
+              ]
+            }
+            path="transactions"
+          />
+        </Router>,
+      ],
+      "className": "c-tabs",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Rows
+              data={
+                Array [
+                  Object {
+                    "categoryId": 1,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                    "id": "5a5caa1efe33900100fd8ed5",
+                    "isBill": true,
+                    "name": "Vodafone",
+                    "transactions": Array [
+                      Object {
+                        "amount": 12.34,
+                        "date": "2018-01-13",
+                        "id": 36,
+                      },
+                      Object {
+                        "amount": 14.34,
+                        "date": "2018-02-13",
+                        "id": 37,
+                      },
+                      Object {
+                        "amount": 15.54,
+                        "date": "2018-03-13",
+                        "id": 38,
+                      },
+                      Object {
+                        "amount": 11.34,
+                        "date": "2018-04-13",
+                        "id": 39,
+                      },
+                      Object {
+                        "amount": 18.99,
+                        "date": "2018-05-13",
+                        "id": 40,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                    "id": "5a5caad4fe33900100fd8ed7",
+                    "isBill": true,
+                    "name": "HSBC Mortgage",
+                    "transactions": Array [
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-01-01",
+                        "id": 1,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-02-01",
+                        "id": 2,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-03-01",
+                        "id": 3,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-04-01",
+                        "id": 4,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-05-01",
+                        "id": 5,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                    "id": "5a5cab18fe33900100fd8ed8",
+                    "isBill": true,
+                    "name": "Netflix",
+                    "transactions": Array [
+                      Object {
+                        "amount": 19,
+                        "date": "2018-01-02",
+                        "id": 6,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-02-02",
+                        "id": 7,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-03-02",
+                        "id": 8,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-04-02",
+                        "id": 9,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-05-02",
+                        "id": 10,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": null,
+                    "id": "5a5cab3bfe33900100fd8ed9",
+                    "isBill": true,
+                    "name": "Transfer to flatmate",
+                    "transactions": Array [
+                      Object {
+                        "amount": 450,
+                        "date": "2018-01-02",
+                        "id": 11,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-02-02",
+                        "id": 12,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-03-02",
+                        "id": 13,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-04-02",
+                        "id": 14,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-02",
+                        "id": 15,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                    "id": "5a5cab88fe33900100fd8eda",
+                    "isBill": true,
+                    "name": "AMEX Payment",
+                    "transactions": Array [
+                      Object {
+                        "amount": 50,
+                        "date": "2018-01-22",
+                        "id": 16,
+                      },
+                      Object {
+                        "amount": 50,
+                        "date": "2018-02-22",
+                        "id": 17,
+                      },
+                      Object {
+                        "amount": 62.34,
+                        "date": "2018-03-22",
+                        "id": 18,
+                      },
+                      Object {
+                        "amount": 82.87,
+                        "date": "2018-04-22",
+                        "id": 19,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-22",
+                        "id": 20,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 5,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                    "id": "5a5cac65fe33900100fd8edc",
+                    "isBill": true,
+                    "name": "Sainsbury's",
+                    "transactions": Array [
+                      Object {
+                        "amount": 18.92,
+                        "date": "2018-01-22",
+                        "id": 26,
+                      },
+                      Object {
+                        "amount": 6.34,
+                        "date": "2018-02-22",
+                        "id": 27,
+                      },
+                      Object {
+                        "amount": 112.34,
+                        "date": "2018-03-10",
+                        "id": 28,
+                      },
+                      Object {
+                        "amount": 565.27,
+                        "date": "2018-04-21",
+                        "id": 29,
+                      },
+                      Object {
+                        "amount": 8,
+                        "date": "2018-07-02",
+                        "id": 30,
+                      },
+                    ],
+                  },
+                ]
+              }
+              path="/"
+            />,
+            <Rows
+              data={
+                Array [
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                    "id": "5a5caa8efe33900100fd8ed6",
+                    "isBill": false,
+                    "name": "Sky TV",
+                    "transactions": Array [
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-01-01",
+                        "id": 41,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-02-01",
+                        "id": 42,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-03-01",
+                        "id": 43,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-04-01",
+                        "id": 44,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-05-01",
+                        "id": 45,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                    "id": "5a5cabd4fe33900100fd8edb",
+                    "isBill": false,
+                    "name": "TFL",
+                    "transactions": Array [
+                      Object {
+                        "amount": 4.99,
+                        "date": "2018-01-22",
+                        "id": 21,
+                      },
+                      Object {
+                        "amount": 6,
+                        "date": "2018-01-22",
+                        "id": 22,
+                      },
+                      Object {
+                        "amount": 2.34,
+                        "date": "2018-03-10",
+                        "id": 23,
+                      },
+                      Object {
+                        "amount": 2.87,
+                        "date": "2018-04-21",
+                        "id": 24,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 25,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                    "id": "328card4fe33900100fd8ail",
+                    "isBill": false,
+                    "name": "Uber",
+                    "transactions": Array [
+                      Object {
+                        "amount": 6.23,
+                        "date": "2018-01-22",
+                        "id": 31,
+                      },
+                      Object {
+                        "amount": 5.12,
+                        "date": "2018-02-21",
+                        "id": 32,
+                      },
+                      Object {
+                        "amount": 8.34,
+                        "date": "2018-03-10",
+                        "id": 33,
+                      },
+                      Object {
+                        "amount": 1.99,
+                        "date": "2018-04-13",
+                        "id": 34,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 35,
+                      },
+                    ],
+                  },
+                ]
+              }
+              path="transactions"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "function",
+            "props": Object {
+              "data": Array [
+                Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                },
+              ],
+              "path": "/",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "data": Array [
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                  "id": "5a5caa8efe33900100fd8ed6",
+                  "isBill": false,
+                  "name": "Sky TV",
+                  "transactions": Array [
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-01-01",
+                      "id": 41,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-02-01",
+                      "id": 42,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-03-01",
+                      "id": 43,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-04-01",
+                      "id": 44,
+                    },
+                    Object {
+                      "amount": 82.17,
+                      "date": "2018-05-01",
+                      "id": 45,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 4,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                  "id": "5a5cabd4fe33900100fd8edb",
+                  "isBill": false,
+                  "name": "TFL",
+                  "transactions": Array [
+                    Object {
+                      "amount": 4.99,
+                      "date": "2018-01-22",
+                      "id": 21,
+                    },
+                    Object {
+                      "amount": 6,
+                      "date": "2018-01-22",
+                      "id": 22,
+                    },
+                    Object {
+                      "amount": 2.34,
+                      "date": "2018-03-10",
+                      "id": 23,
+                    },
+                    Object {
+                      "amount": 2.87,
+                      "date": "2018-04-21",
+                      "id": 24,
+                    },
+                    Object {
+                      "amount": 4,
+                      "date": "2018-05-02",
+                      "id": 25,
+                    },
+                  ],
+                },
+                Object {
+                  "categoryId": 4,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                  "id": "328card4fe33900100fd8ail",
+                  "isBill": false,
+                  "name": "Uber",
+                  "transactions": Array [
+                    Object {
+                      "amount": 6.23,
+                      "date": "2018-01-22",
+                      "id": 31,
+                    },
+                    Object {
+                      "amount": 5.12,
+                      "date": "2018-02-21",
+                      "id": 32,
+                    },
+                    Object {
+                      "amount": 8.34,
+                      "date": "2018-03-10",
+                      "id": 33,
+                    },
+                    Object {
+                      "amount": 1.99,
+                      "date": "2018-04-13",
+                      "id": 34,
+                    },
+                    Object {
+                      "amount": 4,
+                      "date": "2018-05-02",
+                      "id": 35,
+                    },
+                  ],
+                },
+              ],
+              "path": "transactions",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TabsNav />,
+          <Router>
+            <Rows
+              data={
+                Array [
+                  Object {
+                    "categoryId": 1,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                    "id": "5a5caa1efe33900100fd8ed5",
+                    "isBill": true,
+                    "name": "Vodafone",
+                    "transactions": Array [
+                      Object {
+                        "amount": 12.34,
+                        "date": "2018-01-13",
+                        "id": 36,
+                      },
+                      Object {
+                        "amount": 14.34,
+                        "date": "2018-02-13",
+                        "id": 37,
+                      },
+                      Object {
+                        "amount": 15.54,
+                        "date": "2018-03-13",
+                        "id": 38,
+                      },
+                      Object {
+                        "amount": 11.34,
+                        "date": "2018-04-13",
+                        "id": 39,
+                      },
+                      Object {
+                        "amount": 18.99,
+                        "date": "2018-05-13",
+                        "id": 40,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                    "id": "5a5caad4fe33900100fd8ed7",
+                    "isBill": true,
+                    "name": "HSBC Mortgage",
+                    "transactions": Array [
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-01-01",
+                        "id": 1,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-02-01",
+                        "id": 2,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-03-01",
+                        "id": 3,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-04-01",
+                        "id": 4,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-05-01",
+                        "id": 5,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                    "id": "5a5cab18fe33900100fd8ed8",
+                    "isBill": true,
+                    "name": "Netflix",
+                    "transactions": Array [
+                      Object {
+                        "amount": 19,
+                        "date": "2018-01-02",
+                        "id": 6,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-02-02",
+                        "id": 7,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-03-02",
+                        "id": 8,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-04-02",
+                        "id": 9,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-05-02",
+                        "id": 10,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": null,
+                    "id": "5a5cab3bfe33900100fd8ed9",
+                    "isBill": true,
+                    "name": "Transfer to flatmate",
+                    "transactions": Array [
+                      Object {
+                        "amount": 450,
+                        "date": "2018-01-02",
+                        "id": 11,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-02-02",
+                        "id": 12,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-03-02",
+                        "id": 13,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-04-02",
+                        "id": 14,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-02",
+                        "id": 15,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                    "id": "5a5cab88fe33900100fd8eda",
+                    "isBill": true,
+                    "name": "AMEX Payment",
+                    "transactions": Array [
+                      Object {
+                        "amount": 50,
+                        "date": "2018-01-22",
+                        "id": 16,
+                      },
+                      Object {
+                        "amount": 50,
+                        "date": "2018-02-22",
+                        "id": 17,
+                      },
+                      Object {
+                        "amount": 62.34,
+                        "date": "2018-03-22",
+                        "id": 18,
+                      },
+                      Object {
+                        "amount": 82.87,
+                        "date": "2018-04-22",
+                        "id": 19,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-22",
+                        "id": 20,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 5,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                    "id": "5a5cac65fe33900100fd8edc",
+                    "isBill": true,
+                    "name": "Sainsbury's",
+                    "transactions": Array [
+                      Object {
+                        "amount": 18.92,
+                        "date": "2018-01-22",
+                        "id": 26,
+                      },
+                      Object {
+                        "amount": 6.34,
+                        "date": "2018-02-22",
+                        "id": 27,
+                      },
+                      Object {
+                        "amount": 112.34,
+                        "date": "2018-03-10",
+                        "id": 28,
+                      },
+                      Object {
+                        "amount": 565.27,
+                        "date": "2018-04-21",
+                        "id": 29,
+                      },
+                      Object {
+                        "amount": 8,
+                        "date": "2018-07-02",
+                        "id": 30,
+                      },
+                    ],
+                  },
+                ]
+              }
+              path="/"
+            />
+            <Rows
+              data={
+                Array [
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                    "id": "5a5caa8efe33900100fd8ed6",
+                    "isBill": false,
+                    "name": "Sky TV",
+                    "transactions": Array [
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-01-01",
+                        "id": 41,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-02-01",
+                        "id": 42,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-03-01",
+                        "id": 43,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-04-01",
+                        "id": 44,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-05-01",
+                        "id": 45,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                    "id": "5a5cabd4fe33900100fd8edb",
+                    "isBill": false,
+                    "name": "TFL",
+                    "transactions": Array [
+                      Object {
+                        "amount": 4.99,
+                        "date": "2018-01-22",
+                        "id": 21,
+                      },
+                      Object {
+                        "amount": 6,
+                        "date": "2018-01-22",
+                        "id": 22,
+                      },
+                      Object {
+                        "amount": 2.34,
+                        "date": "2018-03-10",
+                        "id": 23,
+                      },
+                      Object {
+                        "amount": 2.87,
+                        "date": "2018-04-21",
+                        "id": 24,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 25,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                    "id": "328card4fe33900100fd8ail",
+                    "isBill": false,
+                    "name": "Uber",
+                    "transactions": Array [
+                      Object {
+                        "amount": 6.23,
+                        "date": "2018-01-22",
+                        "id": 31,
+                      },
+                      Object {
+                        "amount": 5.12,
+                        "date": "2018-02-21",
+                        "id": 32,
+                      },
+                      Object {
+                        "amount": 8.34,
+                        "date": "2018-03-10",
+                        "id": 33,
+                      },
+                      Object {
+                        "amount": 1.99,
+                        "date": "2018-04-13",
+                        "id": 34,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 35,
+                      },
+                    ],
+                  },
+                ]
+              }
+              path="transactions"
+            />
+          </Router>,
+        ],
+        "className": "c-tabs",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Rows
+                data={
+                  Array [
+                    Object {
+                      "categoryId": 1,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                      "id": "5a5caa1efe33900100fd8ed5",
+                      "isBill": true,
+                      "name": "Vodafone",
+                      "transactions": Array [
+                        Object {
+                          "amount": 12.34,
+                          "date": "2018-01-13",
+                          "id": 36,
+                        },
+                        Object {
+                          "amount": 14.34,
+                          "date": "2018-02-13",
+                          "id": 37,
+                        },
+                        Object {
+                          "amount": 15.54,
+                          "date": "2018-03-13",
+                          "id": 38,
+                        },
+                        Object {
+                          "amount": 11.34,
+                          "date": "2018-04-13",
+                          "id": 39,
+                        },
+                        Object {
+                          "amount": 18.99,
+                          "date": "2018-05-13",
+                          "id": 40,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 3,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                      "id": "5a5caad4fe33900100fd8ed7",
+                      "isBill": true,
+                      "name": "HSBC Mortgage",
+                      "transactions": Array [
+                        Object {
+                          "amount": 1023,
+                          "date": "2018-01-01",
+                          "id": 1,
+                        },
+                        Object {
+                          "amount": 1023,
+                          "date": "2018-02-01",
+                          "id": 2,
+                        },
+                        Object {
+                          "amount": 1023,
+                          "date": "2018-03-01",
+                          "id": 3,
+                        },
+                        Object {
+                          "amount": 1023,
+                          "date": "2018-04-01",
+                          "id": 4,
+                        },
+                        Object {
+                          "amount": 1023,
+                          "date": "2018-05-01",
+                          "id": 5,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 2,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                      "id": "5a5cab18fe33900100fd8ed8",
+                      "isBill": true,
+                      "name": "Netflix",
+                      "transactions": Array [
+                        Object {
+                          "amount": 19,
+                          "date": "2018-01-02",
+                          "id": 6,
+                        },
+                        Object {
+                          "amount": 19,
+                          "date": "2018-02-02",
+                          "id": 7,
+                        },
+                        Object {
+                          "amount": 19,
+                          "date": "2018-03-02",
+                          "id": 8,
+                        },
+                        Object {
+                          "amount": 19,
+                          "date": "2018-04-02",
+                          "id": 9,
+                        },
+                        Object {
+                          "amount": 19,
+                          "date": "2018-05-02",
+                          "id": 10,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 3,
+                      "iconUrl": null,
+                      "id": "5a5cab3bfe33900100fd8ed9",
+                      "isBill": true,
+                      "name": "Transfer to flatmate",
+                      "transactions": Array [
+                        Object {
+                          "amount": 450,
+                          "date": "2018-01-02",
+                          "id": 11,
+                        },
+                        Object {
+                          "amount": 450,
+                          "date": "2018-02-02",
+                          "id": 12,
+                        },
+                        Object {
+                          "amount": 450,
+                          "date": "2018-03-02",
+                          "id": 13,
+                        },
+                        Object {
+                          "amount": 450,
+                          "date": "2018-04-02",
+                          "id": 14,
+                        },
+                        Object {
+                          "amount": 450,
+                          "date": "2018-05-02",
+                          "id": 15,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 3,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                      "id": "5a5cab88fe33900100fd8eda",
+                      "isBill": true,
+                      "name": "AMEX Payment",
+                      "transactions": Array [
+                        Object {
+                          "amount": 50,
+                          "date": "2018-01-22",
+                          "id": 16,
+                        },
+                        Object {
+                          "amount": 50,
+                          "date": "2018-02-22",
+                          "id": 17,
+                        },
+                        Object {
+                          "amount": 62.34,
+                          "date": "2018-03-22",
+                          "id": 18,
+                        },
+                        Object {
+                          "amount": 82.87,
+                          "date": "2018-04-22",
+                          "id": 19,
+                        },
+                        Object {
+                          "amount": 450,
+                          "date": "2018-05-22",
+                          "id": 20,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 5,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                      "id": "5a5cac65fe33900100fd8edc",
+                      "isBill": true,
+                      "name": "Sainsbury's",
+                      "transactions": Array [
+                        Object {
+                          "amount": 18.92,
+                          "date": "2018-01-22",
+                          "id": 26,
+                        },
+                        Object {
+                          "amount": 6.34,
+                          "date": "2018-02-22",
+                          "id": 27,
+                        },
+                        Object {
+                          "amount": 112.34,
+                          "date": "2018-03-10",
+                          "id": 28,
+                        },
+                        Object {
+                          "amount": 565.27,
+                          "date": "2018-04-21",
+                          "id": 29,
+                        },
+                        Object {
+                          "amount": 8,
+                          "date": "2018-07-02",
+                          "id": 30,
+                        },
+                      ],
+                    },
+                  ]
+                }
+                path="/"
+              />,
+              <Rows
+                data={
+                  Array [
+                    Object {
+                      "categoryId": 2,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                      "id": "5a5caa8efe33900100fd8ed6",
+                      "isBill": false,
+                      "name": "Sky TV",
+                      "transactions": Array [
+                        Object {
+                          "amount": 82.17,
+                          "date": "2018-01-01",
+                          "id": 41,
+                        },
+                        Object {
+                          "amount": 82.17,
+                          "date": "2018-02-01",
+                          "id": 42,
+                        },
+                        Object {
+                          "amount": 82.17,
+                          "date": "2018-03-01",
+                          "id": 43,
+                        },
+                        Object {
+                          "amount": 82.17,
+                          "date": "2018-04-01",
+                          "id": 44,
+                        },
+                        Object {
+                          "amount": 82.17,
+                          "date": "2018-05-01",
+                          "id": 45,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 4,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                      "id": "5a5cabd4fe33900100fd8edb",
+                      "isBill": false,
+                      "name": "TFL",
+                      "transactions": Array [
+                        Object {
+                          "amount": 4.99,
+                          "date": "2018-01-22",
+                          "id": 21,
+                        },
+                        Object {
+                          "amount": 6,
+                          "date": "2018-01-22",
+                          "id": 22,
+                        },
+                        Object {
+                          "amount": 2.34,
+                          "date": "2018-03-10",
+                          "id": 23,
+                        },
+                        Object {
+                          "amount": 2.87,
+                          "date": "2018-04-21",
+                          "id": 24,
+                        },
+                        Object {
+                          "amount": 4,
+                          "date": "2018-05-02",
+                          "id": 25,
+                        },
+                      ],
+                    },
+                    Object {
+                      "categoryId": 4,
+                      "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                      "id": "328card4fe33900100fd8ail",
+                      "isBill": false,
+                      "name": "Uber",
+                      "transactions": Array [
+                        Object {
+                          "amount": 6.23,
+                          "date": "2018-01-22",
+                          "id": 31,
+                        },
+                        Object {
+                          "amount": 5.12,
+                          "date": "2018-02-21",
+                          "id": 32,
+                        },
+                        Object {
+                          "amount": 8.34,
+                          "date": "2018-03-10",
+                          "id": 33,
+                        },
+                        Object {
+                          "amount": 1.99,
+                          "date": "2018-04-13",
+                          "id": 34,
+                        },
+                        Object {
+                          "amount": 4,
+                          "date": "2018-05-02",
+                          "id": 35,
+                        },
+                      ],
+                    },
+                  ]
+                }
+                path="transactions"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "function",
+              "props": Object {
+                "data": Array [
+                  Object {
+                    "categoryId": 1,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                    "id": "5a5caa1efe33900100fd8ed5",
+                    "isBill": true,
+                    "name": "Vodafone",
+                    "transactions": Array [
+                      Object {
+                        "amount": 12.34,
+                        "date": "2018-01-13",
+                        "id": 36,
+                      },
+                      Object {
+                        "amount": 14.34,
+                        "date": "2018-02-13",
+                        "id": 37,
+                      },
+                      Object {
+                        "amount": 15.54,
+                        "date": "2018-03-13",
+                        "id": 38,
+                      },
+                      Object {
+                        "amount": 11.34,
+                        "date": "2018-04-13",
+                        "id": 39,
+                      },
+                      Object {
+                        "amount": 18.99,
+                        "date": "2018-05-13",
+                        "id": 40,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                    "id": "5a5caad4fe33900100fd8ed7",
+                    "isBill": true,
+                    "name": "HSBC Mortgage",
+                    "transactions": Array [
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-01-01",
+                        "id": 1,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-02-01",
+                        "id": 2,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-03-01",
+                        "id": 3,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-04-01",
+                        "id": 4,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-05-01",
+                        "id": 5,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                    "id": "5a5cab18fe33900100fd8ed8",
+                    "isBill": true,
+                    "name": "Netflix",
+                    "transactions": Array [
+                      Object {
+                        "amount": 19,
+                        "date": "2018-01-02",
+                        "id": 6,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-02-02",
+                        "id": 7,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-03-02",
+                        "id": 8,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-04-02",
+                        "id": 9,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-05-02",
+                        "id": 10,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": null,
+                    "id": "5a5cab3bfe33900100fd8ed9",
+                    "isBill": true,
+                    "name": "Transfer to flatmate",
+                    "transactions": Array [
+                      Object {
+                        "amount": 450,
+                        "date": "2018-01-02",
+                        "id": 11,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-02-02",
+                        "id": 12,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-03-02",
+                        "id": 13,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-04-02",
+                        "id": 14,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-02",
+                        "id": 15,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                    "id": "5a5cab88fe33900100fd8eda",
+                    "isBill": true,
+                    "name": "AMEX Payment",
+                    "transactions": Array [
+                      Object {
+                        "amount": 50,
+                        "date": "2018-01-22",
+                        "id": 16,
+                      },
+                      Object {
+                        "amount": 50,
+                        "date": "2018-02-22",
+                        "id": 17,
+                      },
+                      Object {
+                        "amount": 62.34,
+                        "date": "2018-03-22",
+                        "id": 18,
+                      },
+                      Object {
+                        "amount": 82.87,
+                        "date": "2018-04-22",
+                        "id": 19,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-22",
+                        "id": 20,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 5,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                    "id": "5a5cac65fe33900100fd8edc",
+                    "isBill": true,
+                    "name": "Sainsbury's",
+                    "transactions": Array [
+                      Object {
+                        "amount": 18.92,
+                        "date": "2018-01-22",
+                        "id": 26,
+                      },
+                      Object {
+                        "amount": 6.34,
+                        "date": "2018-02-22",
+                        "id": 27,
+                      },
+                      Object {
+                        "amount": 112.34,
+                        "date": "2018-03-10",
+                        "id": 28,
+                      },
+                      Object {
+                        "amount": 565.27,
+                        "date": "2018-04-21",
+                        "id": 29,
+                      },
+                      Object {
+                        "amount": 8,
+                        "date": "2018-07-02",
+                        "id": 30,
+                      },
+                    ],
+                  },
+                ],
+                "path": "/",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "data": Array [
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+                    "id": "5a5caa8efe33900100fd8ed6",
+                    "isBill": false,
+                    "name": "Sky TV",
+                    "transactions": Array [
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-01-01",
+                        "id": 41,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-02-01",
+                        "id": 42,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-03-01",
+                        "id": 43,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-04-01",
+                        "id": 44,
+                      },
+                      Object {
+                        "amount": 82.17,
+                        "date": "2018-05-01",
+                        "id": 45,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+                    "id": "5a5cabd4fe33900100fd8edb",
+                    "isBill": false,
+                    "name": "TFL",
+                    "transactions": Array [
+                      Object {
+                        "amount": 4.99,
+                        "date": "2018-01-22",
+                        "id": 21,
+                      },
+                      Object {
+                        "amount": 6,
+                        "date": "2018-01-22",
+                        "id": 22,
+                      },
+                      Object {
+                        "amount": 2.34,
+                        "date": "2018-03-10",
+                        "id": 23,
+                      },
+                      Object {
+                        "amount": 2.87,
+                        "date": "2018-04-21",
+                        "id": 24,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 25,
+                      },
+                    ],
+                  },
+                  Object {
+                    "categoryId": 4,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+                    "id": "328card4fe33900100fd8ail",
+                    "isBill": false,
+                    "name": "Uber",
+                    "transactions": Array [
+                      Object {
+                        "amount": 6.23,
+                        "date": "2018-01-22",
+                        "id": 31,
+                      },
+                      Object {
+                        "amount": 5.12,
+                        "date": "2018-02-21",
+                        "id": 32,
+                      },
+                      Object {
+                        "amount": 8.34,
+                        "date": "2018-03-10",
+                        "id": 33,
+                      },
+                      Object {
+                        "amount": 1.99,
+                        "date": "2018-04-13",
+                        "id": 34,
+                      },
+                      Object {
+                        "amount": 4,
+                        "date": "2018-05-02",
+                        "id": 35,
+                      },
+                    ],
+                  },
+                ],
+                "path": "transactions",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Tabs Renders spinner 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TabsContainer
+    store={
+      Object {
+        "bills": Array [
+          Object {
+            "categoryId": 1,
+            "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+            "id": "5a5caa1efe33900100fd8ed5",
+            "isBill": true,
+            "name": "Vodafone",
+            "transactions": Array [
+              Object {
+                "amount": 12.34,
+                "date": "2018-01-13",
+                "id": 36,
+              },
+              Object {
+                "amount": 14.34,
+                "date": "2018-02-13",
+                "id": 37,
+              },
+              Object {
+                "amount": 15.54,
+                "date": "2018-03-13",
+                "id": 38,
+              },
+              Object {
+                "amount": 11.34,
+                "date": "2018-04-13",
+                "id": 39,
+              },
+              Object {
+                "amount": 18.99,
+                "date": "2018-05-13",
+                "id": 40,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+            "id": "5a5caad4fe33900100fd8ed7",
+            "isBill": true,
+            "name": "HSBC Mortgage",
+            "transactions": Array [
+              Object {
+                "amount": 1023,
+                "date": "2018-01-01",
+                "id": 1,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-02-01",
+                "id": 2,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-03-01",
+                "id": 3,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-04-01",
+                "id": 4,
+              },
+              Object {
+                "amount": 1023,
+                "date": "2018-05-01",
+                "id": 5,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 2,
+            "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+            "id": "5a5cab18fe33900100fd8ed8",
+            "isBill": true,
+            "name": "Netflix",
+            "transactions": Array [
+              Object {
+                "amount": 19,
+                "date": "2018-01-02",
+                "id": 6,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-02-02",
+                "id": 7,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-03-02",
+                "id": 8,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-04-02",
+                "id": 9,
+              },
+              Object {
+                "amount": 19,
+                "date": "2018-05-02",
+                "id": 10,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": null,
+            "id": "5a5cab3bfe33900100fd8ed9",
+            "isBill": true,
+            "name": "Transfer to flatmate",
+            "transactions": Array [
+              Object {
+                "amount": 450,
+                "date": "2018-01-02",
+                "id": 11,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-02-02",
+                "id": 12,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-03-02",
+                "id": 13,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-04-02",
+                "id": 14,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-05-02",
+                "id": 15,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 3,
+            "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+            "id": "5a5cab88fe33900100fd8eda",
+            "isBill": true,
+            "name": "AMEX Payment",
+            "transactions": Array [
+              Object {
+                "amount": 50,
+                "date": "2018-01-22",
+                "id": 16,
+              },
+              Object {
+                "amount": 50,
+                "date": "2018-02-22",
+                "id": 17,
+              },
+              Object {
+                "amount": 62.34,
+                "date": "2018-03-22",
+                "id": 18,
+              },
+              Object {
+                "amount": 82.87,
+                "date": "2018-04-22",
+                "id": 19,
+              },
+              Object {
+                "amount": 450,
+                "date": "2018-05-22",
+                "id": 20,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 5,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+            "id": "5a5cac65fe33900100fd8edc",
+            "isBill": true,
+            "name": "Sainsbury's",
+            "transactions": Array [
+              Object {
+                "amount": 18.92,
+                "date": "2018-01-22",
+                "id": 26,
+              },
+              Object {
+                "amount": 6.34,
+                "date": "2018-02-22",
+                "id": 27,
+              },
+              Object {
+                "amount": 112.34,
+                "date": "2018-03-10",
+                "id": 28,
+              },
+              Object {
+                "amount": 565.27,
+                "date": "2018-04-21",
+                "id": 29,
+              },
+              Object {
+                "amount": 8,
+                "date": "2018-07-02",
+                "id": 30,
+              },
+            ],
+          },
+        ],
+        "categories": Array [
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/income.png",
+            "id": 1,
+            "name": "Phone",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/entertainment.png",
+            "id": 2,
+            "name": "TV",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/bank_charges.png",
+            "id": 3,
+            "name": "Bank Charges",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/transport.png",
+            "id": 4,
+            "name": "Transport",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/groceries.png",
+            "id": 5,
+            "name": "Groceries",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/eating_out.png",
+            "id": 6,
+            "name": "Eating Out",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/shopping.png",
+            "id": 7,
+            "name": "Shopping",
+          },
+        ],
+        "fetchTransactions": [MockFunction] {
+          "calls": Array [
+            Array [],
+          ],
+          "results": Array [
+            Object {
+              "isThrow": false,
+              "value": undefined,
+            },
+          ],
+        },
+        "transactions": Array [
+          Object {
+            "categoryId": 2,
+            "iconUrl": "https://pbs.twimg.com/profile_images/787957563463725056/duc0g4fp.jpg",
+            "id": "5a5caa8efe33900100fd8ed6",
+            "isBill": false,
+            "name": "Sky TV",
+            "transactions": Array [
+              Object {
+                "amount": 82.17,
+                "date": "2018-01-01",
+                "id": 41,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-02-01",
+                "id": 42,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-03-01",
+                "id": 43,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-04-01",
+                "id": 44,
+              },
+              Object {
+                "amount": 82.17,
+                "date": "2018-05-01",
+                "id": 45,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 4,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1026480580156968960/kpcHBd7s.jpg",
+            "id": "5a5cabd4fe33900100fd8edb",
+            "isBill": false,
+            "name": "TFL",
+            "transactions": Array [
+              Object {
+                "amount": 4.99,
+                "date": "2018-01-22",
+                "id": 21,
+              },
+              Object {
+                "amount": 6,
+                "date": "2018-01-22",
+                "id": 22,
+              },
+              Object {
+                "amount": 2.34,
+                "date": "2018-03-10",
+                "id": 23,
+              },
+              Object {
+                "amount": 2.87,
+                "date": "2018-04-21",
+                "id": 24,
+              },
+              Object {
+                "amount": 4,
+                "date": "2018-05-02",
+                "id": 25,
+              },
+            ],
+          },
+          Object {
+            "categoryId": 4,
+            "iconUrl": "https://pbs.twimg.com/profile_images/1045783102000230400/TPLLaqYR.jpg",
+            "id": "328card4fe33900100fd8ail",
+            "isBill": false,
+            "name": "Uber",
+            "transactions": Array [
+              Object {
+                "amount": 6.23,
+                "date": "2018-01-22",
+                "id": 31,
+              },
+              Object {
+                "amount": 5.12,
+                "date": "2018-02-21",
+                "id": 32,
+              },
+              Object {
+                "amount": 8.34,
+                "date": "2018-03-10",
+                "id": 33,
+              },
+              Object {
+                "amount": 1.99,
+                "date": "2018-04-13",
+                "id": 34,
+              },
+              Object {
+                "amount": 4,
+                "date": "2018-05-02",
+                "id": 35,
+              },
+            ],
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

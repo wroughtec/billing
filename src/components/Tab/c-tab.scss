@@ -1,0 +1,21 @@
+.c-tab {
+  display: block;
+  padding: .75rem .5rem;
+
+  font-size: 1.25rem;
+
+  color: var(--linkColour);
+
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--linkHoverColour);
+  }
+
+  &.is-active {
+    color: var(--linkActiveColour);
+
+    background-color: var(--linkActiveBackgroundColour);
+  }
+}

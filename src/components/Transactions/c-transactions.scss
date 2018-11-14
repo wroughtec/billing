@@ -1,0 +1,54 @@
+$tranSpacer: 2.5rem;
+
+.c-transactions {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  list-style: none;
+}
+
+.c-transactions__item {
+  display: grid;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  margin-right: $tranSpacer;
+  margin-left: $tranSpacer;
+
+  border-top: 1px solid var(--innerBorderColour);
+
+  grid-template-columns: repeat(2, 50%);
+}
+
+.c-transactions__headings {
+  border-top: 1px solid var(--innerBorderColour);
+}
+
+.c-transactions__title {
+  padding-top: .75rem;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  margin-left: $tranSpacer;
+}
+
+.c-transactions__column-headings {
+  display: grid;
+  padding-right: $tranSpacer;
+  padding-bottom: .75rem;
+  padding-left: $tranSpacer;
+
+  grid-template-columns: repeat(2, 50%);
+}
+
+.c-transactions__heading {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.c-transactions__info {
+  color: var(--transactionColour);
+}
+
+.c-transactions__info--amount {
+  margin-left: auto;
+}

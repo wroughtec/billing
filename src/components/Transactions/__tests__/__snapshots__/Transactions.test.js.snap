@@ -1,0 +1,1149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Transactions Renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Transactions
+    data={
+      Array [
+        Object {
+          "amount": 12.34,
+          "date": "2018-01-13",
+          "id": 36,
+        },
+        Object {
+          "amount": 14.34,
+          "date": "2018-02-13",
+          "id": 37,
+        },
+        Object {
+          "amount": 15.54,
+          "date": "2018-03-13",
+          "id": 38,
+        },
+        Object {
+          "amount": 11.34,
+          "date": "2018-04-13",
+          "id": 39,
+        },
+        Object {
+          "amount": 18.99,
+          "date": "2018-05-13",
+          "id": 40,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className="c-transactions__headings"
+        >
+          <h4
+            className="c-transactions__title"
+          >
+            Transactions
+          </h4>
+          <div
+            className="c-transactions__column-headings"
+          >
+            <span
+              className="c-transactions__heading"
+            >
+              Date
+            </span>
+            <span
+              className="c-transactions__heading"
+            >
+              Amount
+            </span>
+          </div>
+        </li>,
+        Array [
+          <li
+            className="c-transactions__item"
+          >
+            <span
+              className="c-transactions__info"
+            >
+              1/13/2018
+            </span>
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={12.34}
+              />
+            </span>
+          </li>,
+          <li
+            className="c-transactions__item"
+          >
+            <span
+              className="c-transactions__info"
+            >
+              2/13/2018
+            </span>
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={14.34}
+              />
+            </span>
+          </li>,
+          <li
+            className="c-transactions__item"
+          >
+            <span
+              className="c-transactions__info"
+            >
+              3/13/2018
+            </span>
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={15.54}
+              />
+            </span>
+          </li>,
+          <li
+            className="c-transactions__item"
+          >
+            <span
+              className="c-transactions__info"
+            >
+              4/13/2018
+            </span>
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={11.34}
+              />
+            </span>
+          </li>,
+          <li
+            className="c-transactions__item"
+          >
+            <span
+              className="c-transactions__info"
+            >
+              5/13/2018
+            </span>
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={18.99}
+              />
+            </span>
+          </li>,
+        ],
+      ],
+      "className": "c-transactions",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h4
+              className="c-transactions__title"
+            >
+              Transactions
+            </h4>,
+            <div
+              className="c-transactions__column-headings"
+            >
+              <span
+                className="c-transactions__heading"
+              >
+                Date
+              </span>
+              <span
+                className="c-transactions__heading"
+              >
+                Amount
+              </span>
+            </div>,
+          ],
+          "className": "c-transactions__headings",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Transactions",
+              "className": "c-transactions__title",
+            },
+            "ref": null,
+            "rendered": "Transactions",
+            "type": "h4",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <span
+                  className="c-transactions__heading"
+                >
+                  Date
+                </span>,
+                <span
+                  className="c-transactions__heading"
+                >
+                  Amount
+                </span>,
+              ],
+              "className": "c-transactions__column-headings",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Date",
+                  "className": "c-transactions__heading",
+                },
+                "ref": null,
+                "rendered": "Date",
+                "type": "span",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Amount",
+                  "className": "c-transactions__heading",
+                },
+                "ref": null,
+                "rendered": "Amount",
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "36",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-transactions__info"
+            >
+              1/13/2018
+            </span>,
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={12.34}
+              />
+            </span>,
+          ],
+          "className": "c-transactions__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "1/13/2018",
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": "1/13/2018",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={12.34}
+              />,
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "GBP",
+                "quantity": 12.34,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "37",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-transactions__info"
+            >
+              2/13/2018
+            </span>,
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={14.34}
+              />
+            </span>,
+          ],
+          "className": "c-transactions__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "2/13/2018",
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": "2/13/2018",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={14.34}
+              />,
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "GBP",
+                "quantity": 14.34,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "38",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-transactions__info"
+            >
+              3/13/2018
+            </span>,
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={15.54}
+              />
+            </span>,
+          ],
+          "className": "c-transactions__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "3/13/2018",
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": "3/13/2018",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={15.54}
+              />,
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "GBP",
+                "quantity": 15.54,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "39",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-transactions__info"
+            >
+              4/13/2018
+            </span>,
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={11.34}
+              />
+            </span>,
+          ],
+          "className": "c-transactions__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "4/13/2018",
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": "4/13/2018",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={11.34}
+              />,
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "GBP",
+                "quantity": 11.34,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": "40",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              className="c-transactions__info"
+            >
+              5/13/2018
+            </span>,
+            <span
+              className="c-transactions__info"
+            >
+              <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={18.99}
+              />
+            </span>,
+          ],
+          "className": "c-transactions__item",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "5/13/2018",
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": "5/13/2018",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ReactCurrencyFormatter
+                currency="GBP"
+                quantity={18.99}
+              />,
+              "className": "c-transactions__info",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "currency": "GBP",
+                "quantity": 18.99,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "span",
+          },
+        ],
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="c-transactions__headings"
+          >
+            <h4
+              className="c-transactions__title"
+            >
+              Transactions
+            </h4>
+            <div
+              className="c-transactions__column-headings"
+            >
+              <span
+                className="c-transactions__heading"
+              >
+                Date
+              </span>
+              <span
+                className="c-transactions__heading"
+              >
+                Amount
+              </span>
+            </div>
+          </li>,
+          Array [
+            <li
+              className="c-transactions__item"
+            >
+              <span
+                className="c-transactions__info"
+              >
+                1/13/2018
+              </span>
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={12.34}
+                />
+              </span>
+            </li>,
+            <li
+              className="c-transactions__item"
+            >
+              <span
+                className="c-transactions__info"
+              >
+                2/13/2018
+              </span>
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={14.34}
+                />
+              </span>
+            </li>,
+            <li
+              className="c-transactions__item"
+            >
+              <span
+                className="c-transactions__info"
+              >
+                3/13/2018
+              </span>
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={15.54}
+                />
+              </span>
+            </li>,
+            <li
+              className="c-transactions__item"
+            >
+              <span
+                className="c-transactions__info"
+              >
+                4/13/2018
+              </span>
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={11.34}
+                />
+              </span>
+            </li>,
+            <li
+              className="c-transactions__item"
+            >
+              <span
+                className="c-transactions__info"
+              >
+                5/13/2018
+              </span>
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={18.99}
+                />
+              </span>
+            </li>,
+          ],
+        ],
+        "className": "c-transactions",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h4
+                className="c-transactions__title"
+              >
+                Transactions
+              </h4>,
+              <div
+                className="c-transactions__column-headings"
+              >
+                <span
+                  className="c-transactions__heading"
+                >
+                  Date
+                </span>
+                <span
+                  className="c-transactions__heading"
+                >
+                  Amount
+                </span>
+              </div>,
+            ],
+            "className": "c-transactions__headings",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Transactions",
+                "className": "c-transactions__title",
+              },
+              "ref": null,
+              "rendered": "Transactions",
+              "type": "h4",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    className="c-transactions__heading"
+                  >
+                    Date
+                  </span>,
+                  <span
+                    className="c-transactions__heading"
+                  >
+                    Amount
+                  </span>,
+                ],
+                "className": "c-transactions__column-headings",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Date",
+                    "className": "c-transactions__heading",
+                  },
+                  "ref": null,
+                  "rendered": "Date",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Amount",
+                    "className": "c-transactions__heading",
+                  },
+                  "ref": null,
+                  "rendered": "Amount",
+                  "type": "span",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "36",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-transactions__info"
+              >
+                1/13/2018
+              </span>,
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={12.34}
+                />
+              </span>,
+            ],
+            "className": "c-transactions__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "1/13/2018",
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": "1/13/2018",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={12.34}
+                />,
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "GBP",
+                  "quantity": 12.34,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "37",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-transactions__info"
+              >
+                2/13/2018
+              </span>,
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={14.34}
+                />
+              </span>,
+            ],
+            "className": "c-transactions__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "2/13/2018",
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": "2/13/2018",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={14.34}
+                />,
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "GBP",
+                  "quantity": 14.34,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "38",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-transactions__info"
+              >
+                3/13/2018
+              </span>,
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={15.54}
+                />
+              </span>,
+            ],
+            "className": "c-transactions__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "3/13/2018",
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": "3/13/2018",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={15.54}
+                />,
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "GBP",
+                  "quantity": 15.54,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "39",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-transactions__info"
+              >
+                4/13/2018
+              </span>,
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={11.34}
+                />
+              </span>,
+            ],
+            "className": "c-transactions__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "4/13/2018",
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": "4/13/2018",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={11.34}
+                />,
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "GBP",
+                  "quantity": 11.34,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "40",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                className="c-transactions__info"
+              >
+                5/13/2018
+              </span>,
+              <span
+                className="c-transactions__info"
+              >
+                <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={18.99}
+                />
+              </span>,
+            ],
+            "className": "c-transactions__item",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "5/13/2018",
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": "5/13/2018",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <ReactCurrencyFormatter
+                  currency="GBP"
+                  quantity={18.99}
+                />,
+                "className": "c-transactions__info",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "GBP",
+                  "quantity": 18.99,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "span",
+            },
+          ],
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

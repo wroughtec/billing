@@ -1,0 +1,7 @@
+.c-tabs-nav {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+
+  background-color: var(--backgroundColour);
+}

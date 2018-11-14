@@ -1,0 +1,3822 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rows Renders 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Rows
+    data={
+      Array [
+        Object {
+          "categoryId": 1,
+          "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+          "id": "5a5caa1efe33900100fd8ed5",
+          "isBill": true,
+          "name": "Vodafone",
+          "transactions": Array [
+            Object {
+              "amount": 12.34,
+              "date": "2018-01-13",
+              "id": 36,
+            },
+            Object {
+              "amount": 14.34,
+              "date": "2018-02-13",
+              "id": 37,
+            },
+            Object {
+              "amount": 15.54,
+              "date": "2018-03-13",
+              "id": 38,
+            },
+            Object {
+              "amount": 11.34,
+              "date": "2018-04-13",
+              "id": 39,
+            },
+            Object {
+              "amount": 18.99,
+              "date": "2018-05-13",
+              "id": 40,
+            },
+          ],
+        },
+        Object {
+          "categoryId": 3,
+          "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+          "id": "5a5caad4fe33900100fd8ed7",
+          "isBill": true,
+          "name": "HSBC Mortgage",
+          "transactions": Array [
+            Object {
+              "amount": 1023,
+              "date": "2018-01-01",
+              "id": 1,
+            },
+            Object {
+              "amount": 1023,
+              "date": "2018-02-01",
+              "id": 2,
+            },
+            Object {
+              "amount": 1023,
+              "date": "2018-03-01",
+              "id": 3,
+            },
+            Object {
+              "amount": 1023,
+              "date": "2018-04-01",
+              "id": 4,
+            },
+            Object {
+              "amount": 1023,
+              "date": "2018-05-01",
+              "id": 5,
+            },
+          ],
+        },
+        Object {
+          "categoryId": 2,
+          "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+          "id": "5a5cab18fe33900100fd8ed8",
+          "isBill": true,
+          "name": "Netflix",
+          "transactions": Array [
+            Object {
+              "amount": 19,
+              "date": "2018-01-02",
+              "id": 6,
+            },
+            Object {
+              "amount": 19,
+              "date": "2018-02-02",
+              "id": 7,
+            },
+            Object {
+              "amount": 19,
+              "date": "2018-03-02",
+              "id": 8,
+            },
+            Object {
+              "amount": 19,
+              "date": "2018-04-02",
+              "id": 9,
+            },
+            Object {
+              "amount": 19,
+              "date": "2018-05-02",
+              "id": 10,
+            },
+          ],
+        },
+        Object {
+          "categoryId": 3,
+          "iconUrl": null,
+          "id": "5a5cab3bfe33900100fd8ed9",
+          "isBill": true,
+          "name": "Transfer to flatmate",
+          "transactions": Array [
+            Object {
+              "amount": 450,
+              "date": "2018-01-02",
+              "id": 11,
+            },
+            Object {
+              "amount": 450,
+              "date": "2018-02-02",
+              "id": 12,
+            },
+            Object {
+              "amount": 450,
+              "date": "2018-03-02",
+              "id": 13,
+            },
+            Object {
+              "amount": 450,
+              "date": "2018-04-02",
+              "id": 14,
+            },
+            Object {
+              "amount": 450,
+              "date": "2018-05-02",
+              "id": 15,
+            },
+          ],
+        },
+        Object {
+          "categoryId": 3,
+          "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+          "id": "5a5cab88fe33900100fd8eda",
+          "isBill": true,
+          "name": "AMEX Payment",
+          "transactions": Array [
+            Object {
+              "amount": 50,
+              "date": "2018-01-22",
+              "id": 16,
+            },
+            Object {
+              "amount": 50,
+              "date": "2018-02-22",
+              "id": 17,
+            },
+            Object {
+              "amount": 62.34,
+              "date": "2018-03-22",
+              "id": 18,
+            },
+            Object {
+              "amount": 82.87,
+              "date": "2018-04-22",
+              "id": 19,
+            },
+            Object {
+              "amount": 450,
+              "date": "2018-05-22",
+              "id": 20,
+            },
+          ],
+        },
+        Object {
+          "categoryId": 5,
+          "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+          "id": "5a5cac65fe33900100fd8edc",
+          "isBill": true,
+          "name": "Sainsbury's",
+          "transactions": Array [
+            Object {
+              "amount": 18.92,
+              "date": "2018-01-22",
+              "id": 26,
+            },
+            Object {
+              "amount": 6.34,
+              "date": "2018-02-22",
+              "id": 27,
+            },
+            Object {
+              "amount": 112.34,
+              "date": "2018-03-10",
+              "id": 28,
+            },
+            Object {
+              "amount": 565.27,
+              "date": "2018-04-21",
+              "id": 29,
+            },
+            Object {
+              "amount": 8,
+              "date": "2018-07-02",
+              "id": 30,
+            },
+          ],
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="c-rows__list"
+      >
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 1,
+                "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                "id": "5a5caa1efe33900100fd8ed5",
+                "isBill": true,
+                "name": "Vodafone",
+                "transactions": Array [
+                  Object {
+                    "amount": 12.34,
+                    "date": "2018-01-13",
+                    "id": 36,
+                  },
+                  Object {
+                    "amount": 14.34,
+                    "date": "2018-02-13",
+                    "id": 37,
+                  },
+                  Object {
+                    "amount": 15.54,
+                    "date": "2018-03-13",
+                    "id": 38,
+                  },
+                  Object {
+                    "amount": 11.34,
+                    "date": "2018-04-13",
+                    "id": 39,
+                  },
+                  Object {
+                    "amount": 18.99,
+                    "date": "2018-05-13",
+                    "id": 40,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 3,
+                "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                "id": "5a5caad4fe33900100fd8ed7",
+                "isBill": true,
+                "name": "HSBC Mortgage",
+                "transactions": Array [
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-01-01",
+                    "id": 1,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-02-01",
+                    "id": 2,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-03-01",
+                    "id": 3,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-04-01",
+                    "id": 4,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-05-01",
+                    "id": 5,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 2,
+                "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                "id": "5a5cab18fe33900100fd8ed8",
+                "isBill": true,
+                "name": "Netflix",
+                "transactions": Array [
+                  Object {
+                    "amount": 19,
+                    "date": "2018-01-02",
+                    "id": 6,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-02-02",
+                    "id": 7,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-03-02",
+                    "id": 8,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-04-02",
+                    "id": 9,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-05-02",
+                    "id": 10,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 3,
+                "iconUrl": null,
+                "id": "5a5cab3bfe33900100fd8ed9",
+                "isBill": true,
+                "name": "Transfer to flatmate",
+                "transactions": Array [
+                  Object {
+                    "amount": 450,
+                    "date": "2018-01-02",
+                    "id": 11,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-02-02",
+                    "id": 12,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-03-02",
+                    "id": 13,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-04-02",
+                    "id": 14,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-05-02",
+                    "id": 15,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 3,
+                "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                "id": "5a5cab88fe33900100fd8eda",
+                "isBill": true,
+                "name": "AMEX Payment",
+                "transactions": Array [
+                  Object {
+                    "amount": 50,
+                    "date": "2018-01-22",
+                    "id": 16,
+                  },
+                  Object {
+                    "amount": 50,
+                    "date": "2018-02-22",
+                    "id": 17,
+                  },
+                  Object {
+                    "amount": 62.34,
+                    "date": "2018-03-22",
+                    "id": 18,
+                  },
+                  Object {
+                    "amount": 82.87,
+                    "date": "2018-04-22",
+                    "id": 19,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-05-22",
+                    "id": 20,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+        <li
+          className="c-rows__item"
+        >
+          <Row
+            data={
+              Object {
+                "categoryId": 5,
+                "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                "id": "5a5cac65fe33900100fd8edc",
+                "isBill": true,
+                "name": "Sainsbury's",
+                "transactions": Array [
+                  Object {
+                    "amount": 18.92,
+                    "date": "2018-01-22",
+                    "id": 26,
+                  },
+                  Object {
+                    "amount": 6.34,
+                    "date": "2018-02-22",
+                    "id": 27,
+                  },
+                  Object {
+                    "amount": 112.34,
+                    "date": "2018-03-10",
+                    "id": 28,
+                  },
+                  Object {
+                    "amount": 565.27,
+                    "date": "2018-04-21",
+                    "id": 29,
+                  },
+                  Object {
+                    "amount": 8,
+                    "date": "2018-07-02",
+                    "id": 30,
+                  },
+                ],
+              }
+            }
+            store={
+              TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              }
+            }
+          />
+        </li>
+      </ul>,
+      "className": "c-rows",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>,
+        ],
+        "className": "c-rows__list",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "5a5caa1efe33900100fd8ed5",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 1,
+                "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                "id": "5a5caa1efe33900100fd8ed5",
+                "isBill": true,
+                "name": "Vodafone",
+                "transactions": Array [
+                  Object {
+                    "amount": 12.34,
+                    "date": "2018-01-13",
+                    "id": 36,
+                  },
+                  Object {
+                    "amount": 14.34,
+                    "date": "2018-02-13",
+                    "id": 37,
+                  },
+                  Object {
+                    "amount": 15.54,
+                    "date": "2018-03-13",
+                    "id": 38,
+                  },
+                  Object {
+                    "amount": 11.34,
+                    "date": "2018-04-13",
+                    "id": 39,
+                  },
+                  Object {
+                    "amount": 18.99,
+                    "date": "2018-05-13",
+                    "id": 40,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5a5caad4fe33900100fd8ed7",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 3,
+                "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                "id": "5a5caad4fe33900100fd8ed7",
+                "isBill": true,
+                "name": "HSBC Mortgage",
+                "transactions": Array [
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-01-01",
+                    "id": 1,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-02-01",
+                    "id": 2,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-03-01",
+                    "id": 3,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-04-01",
+                    "id": 4,
+                  },
+                  Object {
+                    "amount": 1023,
+                    "date": "2018-05-01",
+                    "id": 5,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5a5cab18fe33900100fd8ed8",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 2,
+                "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                "id": "5a5cab18fe33900100fd8ed8",
+                "isBill": true,
+                "name": "Netflix",
+                "transactions": Array [
+                  Object {
+                    "amount": 19,
+                    "date": "2018-01-02",
+                    "id": 6,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-02-02",
+                    "id": 7,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-03-02",
+                    "id": 8,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-04-02",
+                    "id": 9,
+                  },
+                  Object {
+                    "amount": 19,
+                    "date": "2018-05-02",
+                    "id": 10,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5a5cab3bfe33900100fd8ed9",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 3,
+                "iconUrl": null,
+                "id": "5a5cab3bfe33900100fd8ed9",
+                "isBill": true,
+                "name": "Transfer to flatmate",
+                "transactions": Array [
+                  Object {
+                    "amount": 450,
+                    "date": "2018-01-02",
+                    "id": 11,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-02-02",
+                    "id": 12,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-03-02",
+                    "id": 13,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-04-02",
+                    "id": 14,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-05-02",
+                    "id": 15,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5a5cab88fe33900100fd8eda",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 3,
+                "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                "id": "5a5cab88fe33900100fd8eda",
+                "isBill": true,
+                "name": "AMEX Payment",
+                "transactions": Array [
+                  Object {
+                    "amount": 50,
+                    "date": "2018-01-22",
+                    "id": 16,
+                  },
+                  Object {
+                    "amount": 50,
+                    "date": "2018-02-22",
+                    "id": 17,
+                  },
+                  Object {
+                    "amount": 62.34,
+                    "date": "2018-03-22",
+                    "id": 18,
+                  },
+                  Object {
+                    "amount": 82.87,
+                    "date": "2018-04-22",
+                    "id": 19,
+                  },
+                  Object {
+                    "amount": 450,
+                    "date": "2018-05-22",
+                    "id": 20,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": "5a5cac65fe33900100fd8edc",
+          "nodeType": "host",
+          "props": Object {
+            "children": <Row
+              data={
+                Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />,
+            "className": "c-rows__item",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data": Object {
+                "categoryId": 5,
+                "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                "id": "5a5cac65fe33900100fd8edc",
+                "isBill": true,
+                "name": "Sainsbury's",
+                "transactions": Array [
+                  Object {
+                    "amount": 18.92,
+                    "date": "2018-01-22",
+                    "id": 26,
+                  },
+                  Object {
+                    "amount": 6.34,
+                    "date": "2018-02-22",
+                    "id": 27,
+                  },
+                  Object {
+                    "amount": 112.34,
+                    "date": "2018-03-10",
+                    "id": 28,
+                  },
+                  Object {
+                    "amount": 565.27,
+                    "date": "2018-04-21",
+                    "id": 29,
+                  },
+                  Object {
+                    "amount": 8,
+                    "date": "2018-07-02",
+                    "id": 30,
+                  },
+                ],
+              },
+              "store": TransactionStore {
+                "bills": Array [],
+                "categories": Array [],
+                "state": "pending",
+                "transactions": Array [],
+                Symbol(mobx did run lazy initializers): true,
+                Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                  "defaultEnhancer": [Function],
+                  "keysAtom": Atom$$1 {
+                    "diffValue": 0,
+                    "isBeingObserved": false,
+                    "isPendingUnobservation": false,
+                    "lastAccessedBy": 0,
+                    "lowestObserverState": 2,
+                    "name": "TransactionStore@1.keys",
+                    "observers": Set {},
+                  },
+                  "name": "TransactionStore@1",
+                  "target": [Circular],
+                  "values": Map {
+                    "bills" => Array [],
+                    "transactions" => Array [],
+                    "state" => "pending",
+                  },
+                },
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="c-rows__list"
+        >
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+          <li
+            className="c-rows__item"
+          >
+            <Row
+              data={
+                Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                }
+              }
+              store={
+                TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                }
+              }
+            />
+          </li>
+        </ul>,
+        "className": "c-rows",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 1,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                    "id": "5a5caa1efe33900100fd8ed5",
+                    "isBill": true,
+                    "name": "Vodafone",
+                    "transactions": Array [
+                      Object {
+                        "amount": 12.34,
+                        "date": "2018-01-13",
+                        "id": 36,
+                      },
+                      Object {
+                        "amount": 14.34,
+                        "date": "2018-02-13",
+                        "id": 37,
+                      },
+                      Object {
+                        "amount": 15.54,
+                        "date": "2018-03-13",
+                        "id": 38,
+                      },
+                      Object {
+                        "amount": 11.34,
+                        "date": "2018-04-13",
+                        "id": 39,
+                      },
+                      Object {
+                        "amount": 18.99,
+                        "date": "2018-05-13",
+                        "id": 40,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                    "id": "5a5caad4fe33900100fd8ed7",
+                    "isBill": true,
+                    "name": "HSBC Mortgage",
+                    "transactions": Array [
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-01-01",
+                        "id": 1,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-02-01",
+                        "id": 2,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-03-01",
+                        "id": 3,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-04-01",
+                        "id": 4,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-05-01",
+                        "id": 5,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                    "id": "5a5cab18fe33900100fd8ed8",
+                    "isBill": true,
+                    "name": "Netflix",
+                    "transactions": Array [
+                      Object {
+                        "amount": 19,
+                        "date": "2018-01-02",
+                        "id": 6,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-02-02",
+                        "id": 7,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-03-02",
+                        "id": 8,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-04-02",
+                        "id": 9,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-05-02",
+                        "id": 10,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": null,
+                    "id": "5a5cab3bfe33900100fd8ed9",
+                    "isBill": true,
+                    "name": "Transfer to flatmate",
+                    "transactions": Array [
+                      Object {
+                        "amount": 450,
+                        "date": "2018-01-02",
+                        "id": 11,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-02-02",
+                        "id": 12,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-03-02",
+                        "id": 13,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-04-02",
+                        "id": 14,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-02",
+                        "id": 15,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                    "id": "5a5cab88fe33900100fd8eda",
+                    "isBill": true,
+                    "name": "AMEX Payment",
+                    "transactions": Array [
+                      Object {
+                        "amount": 50,
+                        "date": "2018-01-22",
+                        "id": 16,
+                      },
+                      Object {
+                        "amount": 50,
+                        "date": "2018-02-22",
+                        "id": 17,
+                      },
+                      Object {
+                        "amount": 62.34,
+                        "date": "2018-03-22",
+                        "id": 18,
+                      },
+                      Object {
+                        "amount": 82.87,
+                        "date": "2018-04-22",
+                        "id": 19,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-22",
+                        "id": 20,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+            <li
+              className="c-rows__item"
+            >
+              <Row
+                data={
+                  Object {
+                    "categoryId": 5,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                    "id": "5a5cac65fe33900100fd8edc",
+                    "isBill": true,
+                    "name": "Sainsbury's",
+                    "transactions": Array [
+                      Object {
+                        "amount": 18.92,
+                        "date": "2018-01-22",
+                        "id": 26,
+                      },
+                      Object {
+                        "amount": 6.34,
+                        "date": "2018-02-22",
+                        "id": 27,
+                      },
+                      Object {
+                        "amount": 112.34,
+                        "date": "2018-03-10",
+                        "id": 28,
+                      },
+                      Object {
+                        "amount": 565.27,
+                        "date": "2018-04-21",
+                        "id": 29,
+                      },
+                      Object {
+                        "amount": 8,
+                        "date": "2018-07-02",
+                        "id": 30,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />
+            </li>,
+          ],
+          "className": "c-rows__list",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "5a5caa1efe33900100fd8ed5",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 1,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                    "id": "5a5caa1efe33900100fd8ed5",
+                    "isBill": true,
+                    "name": "Vodafone",
+                    "transactions": Array [
+                      Object {
+                        "amount": 12.34,
+                        "date": "2018-01-13",
+                        "id": 36,
+                      },
+                      Object {
+                        "amount": 14.34,
+                        "date": "2018-02-13",
+                        "id": 37,
+                      },
+                      Object {
+                        "amount": 15.54,
+                        "date": "2018-03-13",
+                        "id": 38,
+                      },
+                      Object {
+                        "amount": 11.34,
+                        "date": "2018-04-13",
+                        "id": 39,
+                      },
+                      Object {
+                        "amount": 18.99,
+                        "date": "2018-05-13",
+                        "id": 40,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 1,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                  "id": "5a5caa1efe33900100fd8ed5",
+                  "isBill": true,
+                  "name": "Vodafone",
+                  "transactions": Array [
+                    Object {
+                      "amount": 12.34,
+                      "date": "2018-01-13",
+                      "id": 36,
+                    },
+                    Object {
+                      "amount": 14.34,
+                      "date": "2018-02-13",
+                      "id": 37,
+                    },
+                    Object {
+                      "amount": 15.54,
+                      "date": "2018-03-13",
+                      "id": 38,
+                    },
+                    Object {
+                      "amount": 11.34,
+                      "date": "2018-04-13",
+                      "id": 39,
+                    },
+                    Object {
+                      "amount": 18.99,
+                      "date": "2018-05-13",
+                      "id": 40,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5a5caad4fe33900100fd8ed7",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                    "id": "5a5caad4fe33900100fd8ed7",
+                    "isBill": true,
+                    "name": "HSBC Mortgage",
+                    "transactions": Array [
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-01-01",
+                        "id": 1,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-02-01",
+                        "id": 2,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-03-01",
+                        "id": 3,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-04-01",
+                        "id": 4,
+                      },
+                      Object {
+                        "amount": 1023,
+                        "date": "2018-05-01",
+                        "id": 5,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1026445460179955712/BWHmmzXt.jpg",
+                  "id": "5a5caad4fe33900100fd8ed7",
+                  "isBill": true,
+                  "name": "HSBC Mortgage",
+                  "transactions": Array [
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-01-01",
+                      "id": 1,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-02-01",
+                      "id": 2,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-03-01",
+                      "id": 3,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-04-01",
+                      "id": 4,
+                    },
+                    Object {
+                      "amount": 1023,
+                      "date": "2018-05-01",
+                      "id": 5,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5a5cab18fe33900100fd8ed8",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 2,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                    "id": "5a5cab18fe33900100fd8ed8",
+                    "isBill": true,
+                    "name": "Netflix",
+                    "transactions": Array [
+                      Object {
+                        "amount": 19,
+                        "date": "2018-01-02",
+                        "id": 6,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-02-02",
+                        "id": 7,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-03-02",
+                        "id": 8,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-04-02",
+                        "id": 9,
+                      },
+                      Object {
+                        "amount": 19,
+                        "date": "2018-05-02",
+                        "id": 10,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 2,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/877554474776244224/Hx0FkfBI.jpg",
+                  "id": "5a5cab18fe33900100fd8ed8",
+                  "isBill": true,
+                  "name": "Netflix",
+                  "transactions": Array [
+                    Object {
+                      "amount": 19,
+                      "date": "2018-01-02",
+                      "id": 6,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-02-02",
+                      "id": 7,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-03-02",
+                      "id": 8,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-04-02",
+                      "id": 9,
+                    },
+                    Object {
+                      "amount": 19,
+                      "date": "2018-05-02",
+                      "id": 10,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5a5cab3bfe33900100fd8ed9",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": null,
+                    "id": "5a5cab3bfe33900100fd8ed9",
+                    "isBill": true,
+                    "name": "Transfer to flatmate",
+                    "transactions": Array [
+                      Object {
+                        "amount": 450,
+                        "date": "2018-01-02",
+                        "id": 11,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-02-02",
+                        "id": 12,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-03-02",
+                        "id": 13,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-04-02",
+                        "id": 14,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-02",
+                        "id": 15,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 3,
+                  "iconUrl": null,
+                  "id": "5a5cab3bfe33900100fd8ed9",
+                  "isBill": true,
+                  "name": "Transfer to flatmate",
+                  "transactions": Array [
+                    Object {
+                      "amount": 450,
+                      "date": "2018-01-02",
+                      "id": 11,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-02-02",
+                      "id": 12,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-03-02",
+                      "id": 13,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-04-02",
+                      "id": 14,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-02",
+                      "id": 15,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5a5cab88fe33900100fd8eda",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 3,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                    "id": "5a5cab88fe33900100fd8eda",
+                    "isBill": true,
+                    "name": "AMEX Payment",
+                    "transactions": Array [
+                      Object {
+                        "amount": 50,
+                        "date": "2018-01-22",
+                        "id": 16,
+                      },
+                      Object {
+                        "amount": 50,
+                        "date": "2018-02-22",
+                        "id": 17,
+                      },
+                      Object {
+                        "amount": 62.34,
+                        "date": "2018-03-22",
+                        "id": 18,
+                      },
+                      Object {
+                        "amount": 82.87,
+                        "date": "2018-04-22",
+                        "id": 19,
+                      },
+                      Object {
+                        "amount": 450,
+                        "date": "2018-05-22",
+                        "id": 20,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 3,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/984840751929544704/iv3Y8YNC.jpg",
+                  "id": "5a5cab88fe33900100fd8eda",
+                  "isBill": true,
+                  "name": "AMEX Payment",
+                  "transactions": Array [
+                    Object {
+                      "amount": 50,
+                      "date": "2018-01-22",
+                      "id": 16,
+                    },
+                    Object {
+                      "amount": 50,
+                      "date": "2018-02-22",
+                      "id": 17,
+                    },
+                    Object {
+                      "amount": 62.34,
+                      "date": "2018-03-22",
+                      "id": 18,
+                    },
+                    Object {
+                      "amount": 82.87,
+                      "date": "2018-04-22",
+                      "id": 19,
+                    },
+                    Object {
+                      "amount": 450,
+                      "date": "2018-05-22",
+                      "id": 20,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "5a5cac65fe33900100fd8edc",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Row
+                data={
+                  Object {
+                    "categoryId": 5,
+                    "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                    "id": "5a5cac65fe33900100fd8edc",
+                    "isBill": true,
+                    "name": "Sainsbury's",
+                    "transactions": Array [
+                      Object {
+                        "amount": 18.92,
+                        "date": "2018-01-22",
+                        "id": 26,
+                      },
+                      Object {
+                        "amount": 6.34,
+                        "date": "2018-02-22",
+                        "id": 27,
+                      },
+                      Object {
+                        "amount": 112.34,
+                        "date": "2018-03-10",
+                        "id": 28,
+                      },
+                      Object {
+                        "amount": 565.27,
+                        "date": "2018-04-21",
+                        "id": 29,
+                      },
+                      Object {
+                        "amount": 8,
+                        "date": "2018-07-02",
+                        "id": 30,
+                      },
+                    ],
+                  }
+                }
+                store={
+                  TransactionStore {
+                    "bills": Array [],
+                    "categories": Array [],
+                    "state": "pending",
+                    "transactions": Array [],
+                    Symbol(mobx did run lazy initializers): true,
+                    Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                      "defaultEnhancer": [Function],
+                      "keysAtom": Atom$$1 {
+                        "diffValue": 0,
+                        "isBeingObserved": false,
+                        "isPendingUnobservation": false,
+                        "lastAccessedBy": 0,
+                        "lowestObserverState": 2,
+                        "name": "TransactionStore@1.keys",
+                        "observers": Set {},
+                      },
+                      "name": "TransactionStore@1",
+                      "target": [Circular],
+                      "values": Map {
+                        "bills" => Array [],
+                        "transactions" => Array [],
+                        "state" => "pending",
+                      },
+                    },
+                  }
+                }
+              />,
+              "className": "c-rows__item",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "data": Object {
+                  "categoryId": 5,
+                  "iconUrl": "https://pbs.twimg.com/profile_images/1036551701963198464/0VF2gCJB.jpg",
+                  "id": "5a5cac65fe33900100fd8edc",
+                  "isBill": true,
+                  "name": "Sainsbury's",
+                  "transactions": Array [
+                    Object {
+                      "amount": 18.92,
+                      "date": "2018-01-22",
+                      "id": 26,
+                    },
+                    Object {
+                      "amount": 6.34,
+                      "date": "2018-02-22",
+                      "id": 27,
+                    },
+                    Object {
+                      "amount": 112.34,
+                      "date": "2018-03-10",
+                      "id": 28,
+                    },
+                    Object {
+                      "amount": 565.27,
+                      "date": "2018-04-21",
+                      "id": 29,
+                    },
+                    Object {
+                      "amount": 8,
+                      "date": "2018-07-02",
+                      "id": 30,
+                    },
+                  ],
+                },
+                "store": TransactionStore {
+                  "bills": Array [],
+                  "categories": Array [],
+                  "state": "pending",
+                  "transactions": Array [],
+                  Symbol(mobx did run lazy initializers): true,
+                  Symbol(mobx administration): ObservableObjectAdministration$$1 {
+                    "defaultEnhancer": [Function],
+                    "keysAtom": Atom$$1 {
+                      "diffValue": 0,
+                      "isBeingObserved": false,
+                      "isPendingUnobservation": false,
+                      "lastAccessedBy": 0,
+                      "lowestObserverState": 2,
+                      "name": "TransactionStore@1.keys",
+                      "observers": Set {},
+                    },
+                    "name": "TransactionStore@1",
+                    "target": [Circular],
+                    "values": Map {
+                      "bills" => Array [],
+                      "transactions" => Array [],
+                      "state" => "pending",
+                    },
+                  },
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Rows Renders no items 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Rows
+    data={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <h3
+        className="c-rows__missing"
+      >
+        No items
+      </h3>,
+      "className": "c-rows",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "No items",
+        "className": "c-rows__missing",
+      },
+      "ref": null,
+      "rendered": "No items",
+      "type": "h3",
+    },
+    "type": "article",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <h3
+          className="c-rows__missing"
+        >
+          No items
+        </h3>,
+        "className": "c-rows",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No items",
+          "className": "c-rows__missing",
+        },
+        "ref": null,
+        "rendered": "No items",
+        "type": "h3",
+      },
+      "type": "article",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

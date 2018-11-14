@@ -1,0 +1,27 @@
+.c-rows {
+  background-color: var(--tabBackgroundColour);
+}
+
+.c-rows__list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  list-style: none;
+}
+
+.c-rows__item {
+  border-bottom: 1px solid var(--borderColour);
+
+  &:last-of-type {
+    border: 0;
+  }
+}
+
+.c-rows__missing {
+  padding: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-align: center;
+}

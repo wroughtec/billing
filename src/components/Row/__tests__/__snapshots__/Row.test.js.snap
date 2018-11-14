@@ -1,0 +1,1239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row Renders as a bill 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Row
+    data={
+      Object {
+        "categoryId": 1,
+        "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+        "id": "5a5caa1efe33900100fd8ed5",
+        "isBill": true,
+        "name": "Vodafone",
+        "transactions": Array [
+          Object {
+            "amount": 12.34,
+            "date": "2018-01-13",
+            "id": 36,
+          },
+          Object {
+            "amount": 14.34,
+            "date": "2018-02-13",
+            "id": 37,
+          },
+          Object {
+            "amount": 15.54,
+            "date": "2018-03-13",
+            "id": 38,
+          },
+          Object {
+            "amount": 11.34,
+            "date": "2018-04-13",
+            "id": 39,
+          },
+          Object {
+            "amount": 18.99,
+            "date": "2018-05-13",
+            "id": 40,
+          },
+        ],
+      }
+    }
+    store={
+      Object {
+        "categories": Array [
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/income.png",
+            "id": 1,
+            "name": "Phone",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/entertainment.png",
+            "id": 2,
+            "name": "TV",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/bank_charges.png",
+            "id": 3,
+            "name": "Bank Charges",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/transport.png",
+            "id": 4,
+            "name": "Transport",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/groceries.png",
+            "id": 5,
+            "name": "Groceries",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/eating_out.png",
+            "id": 6,
+            "name": "Eating Out",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/shopping.png",
+            "id": 7,
+            "name": "Shopping",
+          },
+        ],
+        "updateBill": [MockFunction],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-row__item"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className="c-row__obj c-row__obj--left"
+          >
+            <img
+              alt="Vodafone"
+              className="c-row__img"
+              onError={[Function]}
+              src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+            />
+          </div>
+          <div
+            className="c-row__body"
+          >
+            <h4
+              className="c-row__title"
+            >
+              Vodafone
+            </h4>
+            <small
+              className="c-row__category"
+            >
+              PHONE
+            </small>
+            <small
+              className="c-row__trans"
+            >
+              Number of transactions: 
+              5
+            </small>
+          </div>
+          <div
+            className="c-row__obj c-row__obj--right"
+          >
+            <button
+              className="c-row__btn"
+              onClick={[Function]}
+            >
+              Remove bill
+            </button>
+          </div>
+        </div>,
+        false,
+      ],
+      "className": "c-row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="c-row__obj c-row__obj--left"
+            >
+              <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />
+            </div>,
+            <div
+              className="c-row__body"
+            >
+              <h4
+                className="c-row__title"
+              >
+                Vodafone
+              </h4>
+              <small
+                className="c-row__category"
+              >
+                PHONE
+              </small>
+              <small
+                className="c-row__trans"
+              >
+                Number of transactions: 
+                5
+              </small>
+            </div>,
+            <div
+              className="c-row__obj c-row__obj--right"
+            >
+              <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Remove bill
+              </button>
+            </div>,
+          ],
+          "className": "c-row__item",
+          "onClick": [Function],
+          "onKeyPress": [Function],
+          "role": "button",
+          "tabIndex": "0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />,
+              "className": "c-row__obj c-row__obj--left",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Vodafone",
+                "className": "c-row__img",
+                "onError": [Function],
+                "src": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4
+                  className="c-row__title"
+                >
+                  Vodafone
+                </h4>,
+                <small
+                  className="c-row__category"
+                >
+                  PHONE
+                </small>,
+                <small
+                  className="c-row__trans"
+                >
+                  Number of transactions: 
+                  5
+                </small>,
+              ],
+              "className": "c-row__body",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vodafone",
+                  "className": "c-row__title",
+                },
+                "ref": null,
+                "rendered": "Vodafone",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PHONE",
+                  "className": "c-row__category",
+                },
+                "ref": null,
+                "rendered": "PHONE",
+                "type": "small",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Number of transactions: ",
+                    5,
+                  ],
+                  "className": "c-row__trans",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Number of transactions: ",
+                  5,
+                ],
+                "type": "small",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Remove bill
+              </button>,
+              "className": "c-row__obj c-row__obj--right",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Remove bill",
+                "className": "c-row__btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Remove bill",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-row__item"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <div
+              className="c-row__obj c-row__obj--left"
+            >
+              <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />
+            </div>
+            <div
+              className="c-row__body"
+            >
+              <h4
+                className="c-row__title"
+              >
+                Vodafone
+              </h4>
+              <small
+                className="c-row__category"
+              >
+                PHONE
+              </small>
+              <small
+                className="c-row__trans"
+              >
+                Number of transactions: 
+                5
+              </small>
+            </div>
+            <div
+              className="c-row__obj c-row__obj--right"
+            >
+              <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Remove bill
+              </button>
+            </div>
+          </div>,
+          false,
+        ],
+        "className": "c-row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="c-row__obj c-row__obj--left"
+              >
+                <img
+                  alt="Vodafone"
+                  className="c-row__img"
+                  onError={[Function]}
+                  src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+                />
+              </div>,
+              <div
+                className="c-row__body"
+              >
+                <h4
+                  className="c-row__title"
+                >
+                  Vodafone
+                </h4>
+                <small
+                  className="c-row__category"
+                >
+                  PHONE
+                </small>
+                <small
+                  className="c-row__trans"
+                >
+                  Number of transactions: 
+                  5
+                </small>
+              </div>,
+              <div
+                className="c-row__obj c-row__obj--right"
+              >
+                <button
+                  className="c-row__btn"
+                  onClick={[Function]}
+                >
+                  Remove bill
+                </button>
+              </div>,
+            ],
+            "className": "c-row__item",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "role": "button",
+            "tabIndex": "0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="Vodafone"
+                  className="c-row__img"
+                  onError={[Function]}
+                  src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+                />,
+                "className": "c-row__obj c-row__obj--left",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Vodafone",
+                  "className": "c-row__img",
+                  "onError": [Function],
+                  "src": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="c-row__title"
+                  >
+                    Vodafone
+                  </h4>,
+                  <small
+                    className="c-row__category"
+                  >
+                    PHONE
+                  </small>,
+                  <small
+                    className="c-row__trans"
+                  >
+                    Number of transactions: 
+                    5
+                  </small>,
+                ],
+                "className": "c-row__body",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vodafone",
+                    "className": "c-row__title",
+                  },
+                  "ref": null,
+                  "rendered": "Vodafone",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "PHONE",
+                    "className": "c-row__category",
+                  },
+                  "ref": null,
+                  "rendered": "PHONE",
+                  "type": "small",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Number of transactions: ",
+                      5,
+                    ],
+                    "className": "c-row__trans",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Number of transactions: ",
+                    5,
+                  ],
+                  "type": "small",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="c-row__btn"
+                  onClick={[Function]}
+                >
+                  Remove bill
+                </button>,
+                "className": "c-row__obj c-row__obj--right",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Remove bill",
+                  "className": "c-row__btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Remove bill",
+                "type": "button",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Row Renders as a transaction 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Row
+    data={
+      Object {
+        "categoryId": 1,
+        "iconUrl": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+        "id": "5a5caa1efe33900100fd8ed5",
+        "isBill": false,
+        "name": "Vodafone",
+        "transactions": Array [
+          Object {
+            "amount": 12.34,
+            "date": "2018-01-13",
+            "id": 36,
+          },
+          Object {
+            "amount": 14.34,
+            "date": "2018-02-13",
+            "id": 37,
+          },
+          Object {
+            "amount": 15.54,
+            "date": "2018-03-13",
+            "id": 38,
+          },
+          Object {
+            "amount": 11.34,
+            "date": "2018-04-13",
+            "id": 39,
+          },
+          Object {
+            "amount": 18.99,
+            "date": "2018-05-13",
+            "id": 40,
+          },
+        ],
+      }
+    }
+    store={
+      Object {
+        "categories": Array [
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/income.png",
+            "id": 1,
+            "name": "Phone",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/entertainment.png",
+            "id": 2,
+            "name": "TV",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/bank_charges.png",
+            "id": 3,
+            "name": "Bank Charges",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/transport.png",
+            "id": 4,
+            "name": "Transport",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/groceries.png",
+            "id": 5,
+            "name": "Groceries",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/eating_out.png",
+            "id": 6,
+            "name": "Eating Out",
+          },
+          Object {
+            "iconUrl": "https://s3.eu-west-2.amazonaws.com/cleoassets/images/category_icons/shopping.png",
+            "id": 7,
+            "name": "Shopping",
+          },
+        ],
+        "updateBill": [MockFunction],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="c-row__item"
+          onClick={[Function]}
+          onKeyPress={[Function]}
+          role="button"
+          tabIndex="0"
+        >
+          <div
+            className="c-row__obj c-row__obj--left"
+          >
+            <img
+              alt="Vodafone"
+              className="c-row__img"
+              onError={[Function]}
+              src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+            />
+          </div>
+          <div
+            className="c-row__body"
+          >
+            <h4
+              className="c-row__title"
+            >
+              Vodafone
+            </h4>
+            <small
+              className="c-row__category"
+            >
+              PHONE
+            </small>
+            <small
+              className="c-row__trans"
+            >
+              Number of transactions: 
+              5
+            </small>
+          </div>
+          <div
+            className="c-row__obj c-row__obj--right"
+          >
+            <button
+              className="c-row__btn"
+              onClick={[Function]}
+            >
+              Add as bill
+            </button>
+          </div>
+        </div>,
+        false,
+      ],
+      "className": "c-row",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="c-row__obj c-row__obj--left"
+            >
+              <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />
+            </div>,
+            <div
+              className="c-row__body"
+            >
+              <h4
+                className="c-row__title"
+              >
+                Vodafone
+              </h4>
+              <small
+                className="c-row__category"
+              >
+                PHONE
+              </small>
+              <small
+                className="c-row__trans"
+              >
+                Number of transactions: 
+                5
+              </small>
+            </div>,
+            <div
+              className="c-row__obj c-row__obj--right"
+            >
+              <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Add as bill
+              </button>
+            </div>,
+          ],
+          "className": "c-row__item",
+          "onClick": [Function],
+          "onKeyPress": [Function],
+          "role": "button",
+          "tabIndex": "0",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />,
+              "className": "c-row__obj c-row__obj--left",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Vodafone",
+                "className": "c-row__img",
+                "onError": [Function],
+                "src": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h4
+                  className="c-row__title"
+                >
+                  Vodafone
+                </h4>,
+                <small
+                  className="c-row__category"
+                >
+                  PHONE
+                </small>,
+                <small
+                  className="c-row__trans"
+                >
+                  Number of transactions: 
+                  5
+                </small>,
+              ],
+              "className": "c-row__body",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Vodafone",
+                  "className": "c-row__title",
+                },
+                "ref": null,
+                "rendered": "Vodafone",
+                "type": "h4",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "PHONE",
+                  "className": "c-row__category",
+                },
+                "ref": null,
+                "rendered": "PHONE",
+                "type": "small",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Number of transactions: ",
+                    5,
+                  ],
+                  "className": "c-row__trans",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Number of transactions: ",
+                  5,
+                ],
+                "type": "small",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Add as bill
+              </button>,
+              "className": "c-row__obj c-row__obj--right",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add as bill",
+                "className": "c-row__btn",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Add as bill",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="c-row__item"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="button"
+            tabIndex="0"
+          >
+            <div
+              className="c-row__obj c-row__obj--left"
+            >
+              <img
+                alt="Vodafone"
+                className="c-row__img"
+                onError={[Function]}
+                src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+              />
+            </div>
+            <div
+              className="c-row__body"
+            >
+              <h4
+                className="c-row__title"
+              >
+                Vodafone
+              </h4>
+              <small
+                className="c-row__category"
+              >
+                PHONE
+              </small>
+              <small
+                className="c-row__trans"
+              >
+                Number of transactions: 
+                5
+              </small>
+            </div>
+            <div
+              className="c-row__obj c-row__obj--right"
+            >
+              <button
+                className="c-row__btn"
+                onClick={[Function]}
+              >
+                Add as bill
+              </button>
+            </div>
+          </div>,
+          false,
+        ],
+        "className": "c-row",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="c-row__obj c-row__obj--left"
+              >
+                <img
+                  alt="Vodafone"
+                  className="c-row__img"
+                  onError={[Function]}
+                  src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+                />
+              </div>,
+              <div
+                className="c-row__body"
+              >
+                <h4
+                  className="c-row__title"
+                >
+                  Vodafone
+                </h4>
+                <small
+                  className="c-row__category"
+                >
+                  PHONE
+                </small>
+                <small
+                  className="c-row__trans"
+                >
+                  Number of transactions: 
+                  5
+                </small>
+              </div>,
+              <div
+                className="c-row__obj c-row__obj--right"
+              >
+                <button
+                  className="c-row__btn"
+                  onClick={[Function]}
+                >
+                  Add as bill
+                </button>
+              </div>,
+            ],
+            "className": "c-row__item",
+            "onClick": [Function],
+            "onKeyPress": [Function],
+            "role": "button",
+            "tabIndex": "0",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="Vodafone"
+                  className="c-row__img"
+                  onError={[Function]}
+                  src="https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg"
+                />,
+                "className": "c-row__obj c-row__obj--left",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Vodafone",
+                  "className": "c-row__img",
+                  "onError": [Function],
+                  "src": "https://pbs.twimg.com/profile_images/915824582455627776/nsyHCFq9.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h4
+                    className="c-row__title"
+                  >
+                    Vodafone
+                  </h4>,
+                  <small
+                    className="c-row__category"
+                  >
+                    PHONE
+                  </small>,
+                  <small
+                    className="c-row__trans"
+                  >
+                    Number of transactions: 
+                    5
+                  </small>,
+                ],
+                "className": "c-row__body",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Vodafone",
+                    "className": "c-row__title",
+                  },
+                  "ref": null,
+                  "rendered": "Vodafone",
+                  "type": "h4",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "PHONE",
+                    "className": "c-row__category",
+                  },
+                  "ref": null,
+                  "rendered": "PHONE",
+                  "type": "small",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "Number of transactions: ",
+                      5,
+                    ],
+                    "className": "c-row__trans",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "Number of transactions: ",
+                    5,
+                  ],
+                  "type": "small",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button
+                  className="c-row__btn"
+                  onClick={[Function]}
+                >
+                  Add as bill
+                </button>,
+                "className": "c-row__obj c-row__obj--right",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Add as bill",
+                  "className": "c-row__btn",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Add as bill",
+                "type": "button",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
